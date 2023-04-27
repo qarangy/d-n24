@@ -327,8 +327,10 @@ img {
 }
 
 .button-orange {
-  color: #fff;
   margin-right: 71px;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
   background-color: #f78b3b;
 }
 
