@@ -680,8 +680,6 @@ img {
 
 
 /* CONTACT PAGE */
-.contact-page {
-}
 
 .contact-page-heading {
   margin-top: 0;
@@ -744,4 +742,85 @@ img {
 /* CONTACT PAGE INFO */
 .contact-page-info {
   background-color: #f6f6f6;
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding-bottom: 40px;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.modal-open {
+  display: block;
+}
+
+.modal-dialog {
+  position: relative;
+  width: 100%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.modal-close-img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.modal-lead {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 26px;
+  line-height: 34px;
+  text-align: center;
+  font-weight: 500;
+  color: #000;
+}
+
+.button-large {
+  padding: 15px 40px;
+  font-size: 24px;
+  line-height: normal;
 }
